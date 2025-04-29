@@ -6,22 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/DOTween Examples/UGUI.unity
+    path: Assets/Scenes/(1) UGUI.unity
     guid: f9f17df2e1fb11a4184c4d8a48de91ef
   - enabled: 1
-    path: Assets/DOTween Examples/Follow.unity
-    guid: 6d6003cb2f193b944917e6f4ae3807ff
-  - enabled: 1
-    path: Assets/DOTween Examples/Basics.unity
+    path: Assets/Scenes/(2) Basics.unity
     guid: 95e8d78a19450e94ebcf85d3708dbdfd
   - enabled: 1
-    path: Assets/DOTween Examples/Materials.unity
+    path: Assets/Scenes/(3) Follow.unity
+    guid: 6d6003cb2f193b944917e6f4ae3807ff
+  - enabled: 1
+    path: Assets/Scenes/(4) Materials.unity
     guid: 4581558edb2b8e04da2eb7a7c34dd2c3
   - enabled: 1
-    path: Assets/DOTween Examples/Paths.unity
+    path: Assets/Scenes/(5) Paths.unity
     guid: 41fea1dee796bf845b168c3e37cee920
   - enabled: 1
-    path: Assets/DOTween Examples/Sequences.unity
+    path: Assets/Scenes/(6) Sequences.unity
     guid: b0790038b06c9bd42a7f8155d5a1a3ee
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
