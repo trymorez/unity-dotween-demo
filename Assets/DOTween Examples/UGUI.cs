@@ -29,11 +29,11 @@ public class UGUI : MonoBehaviour
 			.Pause();
 
 		// Animate the first text...
-		text.DOText("This text will replace the existing one", 2).SetEase(Ease.Linear).SetAutoKill(false).Pause();
+		text.DOText("이 텍스트가 기존 텍스트를 대체합니다", 2).SetEase(Ease.Linear).SetAutoKill(false).Pause();
 		// Animate the second (relative) text...
-		relativeText.DOText(" - This text will be added to the existing one", 2).SetRelative().SetEase(Ease.Linear).SetAutoKill(false).Pause();
+		relativeText.DOText(" - 이 텍스트가 기존 텍스트에 추가됩니다", 2).SetRelative().SetEase(Ease.Linear).SetAutoKill(false).Pause();
 		// Animate the third (scrambled) text...
-		scrambledText.DOText("This text will appear from scrambled chars", 2, true, ScrambleMode.All).SetEase(Ease.Linear).SetAutoKill(false).Pause();
+		scrambledText.DOText("뒤섞인 문장이 이 문장으로 바뀝니다", 2, true, ScrambleMode.All).SetEase(Ease.Linear).SetAutoKill(false).Pause();
 
 		// Animate the slider
 		slider.DOValue(1, 1.5f).SetEase(Ease.InOutQuad).SetLoops(-1, LoopType.Yoyo).Pause();

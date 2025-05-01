@@ -460,23 +460,21 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1803919118}
-  m_Text: 'This example shows you how to create a sample path
-
-    (waypoints can
-    be set in the BRAIN inspector).
-
-    To see the path while playing, activate
-    the Gizmos toolbar button'
+  m_Text: "\uC774 \uC608\uC5D0\uC11C\uB294 \uAC04\uB2E8\uD55C \uACBD\uB85C\uB97C
+    \uC0DD\uC131\uD558\uB294 \uBC29\uBC95\uC744 \uBCF4\uC5EC\uC90D\uB2C8\uB2E4\n(\uC6E8\uC774\uD3EC\uC778\uD2B8\uB294
+    BRAIN \uC778\uC2A4\uD399\uD130\uC5D0\uC11C \uC124\uC815\uD560 \uC218 \uC788\uC74C)\n\uC7AC\uC0DD
+    \uC911\uC5D0 \uACBD\uB85C\uB97C \uD45C\uC2DC\uD558\uB824\uBA74 \uAE30\uC988\uBAA8
+    \uB3C4\uAD6C \uBAA8\uC74C \uBC84\uD2BC\uC744 \uD65C\uC131\uD654\uD558\uC138\uC694"
   m_OffsetZ: 0
   m_CharacterSize: 0.2
   m_LineSpacing: 1
   m_Anchor: 1
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 20
+  m_FontSize: 15
   m_FontStyle: 0
   m_RichText: 0
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: b138b0238a59c334f8a403ce9973512e, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -503,7 +501,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: b138b0238a59c334f8a403ce9973512e, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
